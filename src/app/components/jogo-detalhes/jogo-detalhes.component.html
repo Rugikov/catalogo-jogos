@@ -1,0 +1,15 @@
+<div *ngIf="jogo">
+
+  <h2>{{jogo.Nome | uppercase}} Detalhes</h2>
+  <div><span>Descrição: </span>{{jogo.Descricao}}</div>
+  <div><span>Lançamento: </span>{{jogo.Lancamento}}</div>
+  <div><span>Gênero: </span>{{jogo.Genero}}</div>
+  <div><span>Desenvolvedora: </span>{{jogo.Desenvolvedora}}</div>
+  
+  <div>
+    <label for="nome">Nome do jogo: </label>
+    <input id="nome" [(ngModel)]="jogo.Nome" placeholder="Nome Jogo">
+  </div>
+  <button (click)="save()">Salvar Mudanças</button>
+</div>
+  <button (click)="goBack()">Voltar</button>

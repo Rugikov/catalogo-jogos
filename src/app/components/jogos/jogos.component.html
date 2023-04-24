@@ -1,0 +1,12 @@
+<h2>Meus Jogos</h2>
+
+<ul class="jogos">
+    
+    <li *ngFor="let jogo of jogos"> <!-- Repetição de cada item da lista, para cada 'jogo' em 'jogos' criar 1 item na lista -->
+        <a routerLink="/detalhe/{{jogo.Nome}}">
+            <span class="Nome">{{jogo.Desenvolvedora}}</span> {{jogo.Nome}}
+        </a>   
+    </li>
+</ul>
+
+

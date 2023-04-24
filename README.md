@@ -1,2 +1,5 @@
-# catalogo-jogos
-Projeto de catálogo de jogos
+Este projeto é um catálogo de jogos desenvolvido para entrega para uma vaga de estágio. Aqui está desenvolvido um catálogo onde é possível acessar os jogos mais jogados, abrir a lista de jogos, editar o nome do jogo. O front-end foi desenvolvido utilizando Angular 15. Ele utiliza uma API REST em Python utilizando Flask. Não foi feito um banco de dados para este projeto, os dados estão hardcoded no backend. 
+
+O Backend é o arquivo cj.py, deve ser inicializado com o comando flask run. Para inicializar o frontend utilizar o comando ng serve.
+
+Não consegui completar o projeto como gostaria, aprendi diversas coisas novas para implementá-lo e consegui entregá-lo deste jeito. No futuro espero criar um banco de dados SQL Server conectado à API. Também criaria uma tela para remover e criar novos jogos diretamente na aplicação. Também gostaria de melhorar a interface, mas infelizmente ainda não possuo conhecimento o suficiente para implementar estes itens agora.
